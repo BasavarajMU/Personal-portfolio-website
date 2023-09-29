@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Software Development Engineer(SDE)</p>
+            <h1>Hi, I'm <span>Basavaraj</span><br>Student at RVCE</h1>
+            </div>
+        </div>
+</div>
+
+<!-- -about ---->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Passionate learner and analytical problem-solver. <br>Currently pursuing BE at RV College of Engineering in Electronics and
+                    Telecommunication. <br>Eager to contribute, learn, and make a positive impact in a dynamic environment.</p>
+                    <div class="tab-titles" >
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Projects</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Languages</span><br>C++, Python and SQL</li>
+                            <li><span>Web Development</span><br>Web app Development using HTML, CSS and JS</li>
+                            <li><span>Concepts and Tools</span><br>Operating systems, Computer Networks, DBMS, ML and VS Code.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Apr 2023 - Aug 2023</span><br>Minor Project - Steganography in Medical Data</li>
+                            <li><span>Apr 2023</span><br>Movie Recommendation System using ML</li>
+                            <li><span>March 2023</span><br>Speech to Text</li>
+                            </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Dec  2020 - Present</span><br>RV College of Engineering <br>Bangalore, India<br>CGPA - 8.61</li>
+                            <li><span>June 2018 - May 2020</span><br>Vaishnavi Chetana PU College <br>Davangere, India<br>12th std - 88%</li>
+                            <li><span>June 2017 - May 2018</span><br>Kendriya Vidyalaya Sangathan <br>Belgavi, India<br>10th std - 81.6%</li>
+                        </ul>
+                    </div>
+            </div>
+            
+
+        </div>
+    </div>
+</div>
+<!----------services------->
+
+<div id="services">
+    <div class= "container">
+        <h1 class="sub-title" >My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Web Design and Development</h2>
+                <p>Web design and development is an term that describes the process of creating a website.
+                Web design determines the look and feel of a website, while web development determines how it functions.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>Machine Learning</h2><br><br>
+                <p>Machine learning is a branch of artificial intelligence (AI) and computer science which focuses 
+                on the use of data and algorithms to imitate the way that humans learn, gradually improving its accuracy.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>DevOps </h2><br><br>
+                <p>It is the combination of cultural philosophies, practices, and tools that increases an organization's ability to
+                 deliver applications and services at high velocity</p>
+                <a href="#">learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!---------Portfolio------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Achievements</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Paper Publication</h3>
+                    <p>Real Time Object Distance and Dimension Measurement using OpenCV in IEEE. <br>An application called “Real-Time Object 
+                        Measurement” is used to determine an object's dimensions in 
+                        real time. In this paper Canny Edge detection algorithm is 
+                        implemented.</p>
+                    <a href="https://ieeexplore.ieee.org/document/10073888"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>NPTEL Python</h3>
+                    <p>The course aims at equipping participants to be able to use python programming for solving data science problems using Python</p>
+                    <a href="https://drive.google.com/file/d/1tXQwdIkteowf4GwCIugqhPx2_obYHpeh/view?usp=drive_link"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>KCET Rank</h3>
+                    <p>I have secured 𝟒𝟕𝟐𝟏𝒕𝒉 rank in KCET</p>
+                    
+                </div>
+            </div>
+        </div>      
+        <a href="#" class="btn">See More</a> 
+    </div>
+</div>
+<!----contact-->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class=""sub-title>Contact</h1>
+                <p><i class="fas fa-paper-plane"></i>basavarajmu.et20@rvce.edu.in</p>
+                <p><i class="fas fa-phone-square-alt"></i>7892079769</p><br>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/basavaraj-m-u/"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+
+            </div>
+            
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2023 Basavaraj.</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document. getElementsByClassName ("tab-links");
+    var tabcontents = document.getElementsByClassName ("tab-contents");
+    function opentab (tabname){
+         for (tablink of tablinks){
+            tablink. classList. remove ("active-link");
+        }
+         for (tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+         document. getElementById(tabname).classList.add("active-tab");
+    }
+ </script>
+
+</body>
+</html>
